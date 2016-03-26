@@ -17,6 +17,10 @@ set encoding=utf-8
 "Habilitar coloração
 syntax on
 
+"Font on terminal
+"Name: Noto Monno Bold
+"Size: 10
+
 "Tema
 "set t_Co=256
 colorscheme colorsbox-greenish
@@ -24,6 +28,9 @@ colorscheme colorsbox-greenish
 "Quebra de linha, ruler
 set lbr
 set tw=100
+
+set scrolloff=3
+set cursorline
 
 "Ativa a numeraçao de linhas
 set nu
