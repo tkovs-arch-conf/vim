@@ -4,7 +4,7 @@ filetype on
 filetype indent on
 filetype plugin on
 
-"Indentação
+"IndentaÃ§Ã£o
 set expandtab
 set shiftwidth=4
 set softtabstop=4
@@ -13,8 +13,10 @@ set ai "Auto indent
 
 "Usar UTF-8
 set encoding=utf-8
+set fileencoding=utf-8
+set fileencodings=utf-8
 
-"Habilitar coloração
+"Habilitar coloraÃ§Ã£o
 syntax on
 
 "Font on terminal
@@ -22,21 +24,25 @@ syntax on
 "Size: 10
 
 "Tema
-"set t_Co=256
-colorscheme colorsbox-greenish
+colorscheme sweater
 
 "Quebra de linha, ruler
 set lbr
 set tw=100
 
+"As you type in more characters, the search is refined
+:set incsearch
+
 set scrolloff=3
 set cursorline
 
-"Ativa a numeraçao de linhas
+"Ativa a numeraÃ§Ã£o de linhas
 set nu
 
 "Smarter tab line
 let g:airline#extensions#tabline#enabled = 1
+let g:airline_theme='colorsbox'
+set laststatus=2
 
 "Exibir o [ { ( correspondente ao ] } ) e vice-versa
 set showmatch
