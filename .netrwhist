@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/home/tkovs/github/augein/src'
 let g:netrw_dirhist_2='/home/tkovs/github/Gold-Ring/.git'
 let g:netrw_dirhist_3='/home/tkovs/github/ProjectEuler/Problem056/Clojure'
@@ -8,3 +8,4 @@ let g:netrw_dirhist_5='/home/tkovs'
 let g:netrw_dirhist_6='/home'
 let g:netrw_dirhist_7='/'
 let g:netrw_dirhist_8='/home/tkovs/github/learning/Ruby/ademais'
+let g:netrw_dirhist_9='/home/tkovs/github/genius/ruby/game'

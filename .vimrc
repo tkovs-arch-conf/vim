@@ -24,7 +24,7 @@ syntax on
 "Size: 10
 
 "Tema
-colorscheme sweater
+colorscheme onedark
 
 "Quebra de linha, ruler
 set lbr
@@ -40,9 +40,12 @@ set cursorline
 set nu
 
 "Smarter tab line
-let g:airline#extensions#tabline#enabled = 1
-let g:airline_theme='colorsbox'
-set laststatus=2
+"let g:airline#extensions#tabline#enabled = 1
+"let g:airline_theme='colorsbox'
+"set laststatus=2
+
+"Improves Autocomplete feature
+set completeopt=longest,menuone
 
 "Exibir o [ { ( correspondente ao ] } ) e vice-versa
 set showmatch
@@ -55,6 +58,8 @@ map <C-j> <C-W>j
 map <C-k> <C-W>k
 map <C-h> <C-W>h
 map <C-l> <C-W>l
+
+noremap <C-d> :sh<cr>
 
 "Gerenciar tabs
 map <leader>tn :tabnew<cr>
