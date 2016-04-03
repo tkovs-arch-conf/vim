@@ -26,6 +26,8 @@ syntax on
 "Tema
 colorscheme onedark
 
+"autocmd VimEnter * NERDTree
+
 "Quebra de linha, ruler
 set lbr
 set tw=100
@@ -35,6 +37,8 @@ set tw=100
 
 set scrolloff=3
 set cursorline
+
+set clipboard=unnamedplus
 
 "Ativa a numeração de linhas
 set nu
@@ -51,7 +55,7 @@ set completeopt=longest,menuone
 set showmatch
 
 "Desabilita quebra de linha visual
-set nowrap
+"set nowrap
 
 "Navegar facilmente entre as janelas usando 'j' 'k' 'h' e 'l'
 map <C-j> <C-W>j
