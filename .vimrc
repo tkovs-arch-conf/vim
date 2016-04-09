@@ -19,12 +19,16 @@ set fileencodings=utf-8
 "Habilitar coloração
 syntax on
 
+let g:indentLine_faster = 1
+let g:indentLine_char = '¦'
+
 "Font on terminal
 "Name: Noto Monno Bold
 "Size: 10
 
 "Tema
-colorscheme onedark
+"set t_Co=256
+colorscheme colorsbox-faff
 
 "autocmd VimEnter * NERDTree
 
@@ -34,6 +38,9 @@ set tw=100
 
 "As you type in more characters, the search is refined
 :set incsearch
+
+"Ctrl+s to save file
+"nnoremap <silent> <C-S> :<C-u>Update<CR>
 
 set scrolloff=3
 set cursorline
