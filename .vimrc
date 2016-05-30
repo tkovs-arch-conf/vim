@@ -28,7 +28,7 @@ let g:indentLine_char = '¦'
 
 "Tema
 set t_Co=256
-colorscheme brogrammer
+"colorscheme brogrammer
 
 "autocmd VimEnter * NERDTree
 
