@@ -27,8 +27,8 @@ let g:indentLine_char = '¦'
 "Size: 10
 
 "Tema
-"set t_Co=256
-colorscheme colorsbox-faff
+set t_Co=256
+colorscheme brogrammer
 
 "autocmd VimEnter * NERDTree
 
@@ -63,6 +63,9 @@ set showmatch
 
 "Desabilita quebra de linha visual
 "set nowrap
+
+"Desabilita identação quando for colar texto 
+set pastetoggle=<F10>
 
 "Navegar facilmente entre as janelas usando 'j' 'k' 'h' e 'l'
 map <C-j> <C-W>j
