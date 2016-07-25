@@ -28,7 +28,7 @@ let g:indentLine_char = '¦'
 
 "Tema
 set t_Co=256
-"colorscheme brogrammer
+colorscheme ligthning
 
 "autocmd VimEnter * NERDTree
 
@@ -48,7 +48,7 @@ set cursorline
 set clipboard=unnamedplus
 
 "Ativa a numeração de linhas
-set nu
+"set nu
 
 "Smarter tab line
 "let g:airline#extensions#tabline#enabled = 1
